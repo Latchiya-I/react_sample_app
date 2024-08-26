@@ -10,8 +10,8 @@ import Button from '@mui/material/Button';
 
 
 const top100Films = [
-  { label: 'abcd', year: 1994 },
-  { label: 'efgh', year: 1972 },
+  { label: 'joe', year: 1994 },
+  { label: 'end game', year: 1972 },
   { label: 'The Godfather: Part II', year: 1974 },
   { label: 'The Dark Knight', year: 2008 },
   { label: '12 Angry Men', year: 1957 },
@@ -136,13 +136,13 @@ const top100Films = [
   { label: 'Monty Python and the Holy Grail', year: 1975 },
 ];
 const names = [
-  { label: 'abcd', year: 1994 },
-  { label: 'efgh', year: 1972 },
-  { label: 'The Godfather: Part II', year: 1974 },
-  { label: 'The Dark Knight', year: 2008 },
-  { label: '12 Angry Men', year: 1957 },
-  { label: "Schindler's List", year: 1993 },
-  { label: 'Pulp Fiction', year: 1994 },
+  { label: 'Vijay', year: 1994 },
+  { label: 'Ajith', year: 1972 },
+  { label: 'Suriya', year: 1974 },
+  { label: 'SK', year: 2008 },
+  { label: 'Karthi', year: 1957 },
+  { label: "Vijay sethupathi", year: 1993 },
+  { label: 'Anirudh', year: 1994 },
   {
     label: 'The Lord of the Rings: The Return of the King',
     year: 2003,
@@ -268,7 +268,7 @@ function App(){
 <div className='App'>
    <center>
     <h1>
-    Material UI
+    Find the Movies
     </h1>
    
    <Autocomplete
@@ -292,7 +292,7 @@ function App(){
       spacing={0}
       direction="row"
       sx={{
-        height: '10vh', 
+        height: '20vh', 
         justifyContent: 'center', 
         alignItems: 'center', 
       }}
